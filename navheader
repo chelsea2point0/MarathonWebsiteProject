@@ -1,0 +1,316 @@
+<header id="main-nav" role="banner">
+    <div class="main-nav-container"> <a href="/" class="main-nav-logo">
+      <img src="http://s2.r29static.com/blog/03692d/assets/images/logos/big_logo.png" width="130" height="84" alt="Refinery29 Logo">
+      
+    </a>
+
+        <div class="main-nav-top">
+            <div id="main-nav-user-menu" class="left-ruler">
+                <div class="loggedout"> <a class="main-nav-user-link r29monorail-action" data-r29monorail-action="signIn" href="#">Sign In</a>
+
+                </div>
+            </div>
+            <ul id="main-nav-social-menu" class="main-nav-social-menu">
+                <li class="main-nav-social-menu-item email right-ruler"> <span class="main-nav-social-menu-item-button icon-mailbox"></span>
+
+                    <div class="signup main-nav-email-dropdown right-ruler">
+                        <input id="main-nav-email-dropdown-input" type="email" placeholder="Enter Email For Daily Inspiration" message="Please enter your email">
+                        <button class="main-nav-email-submit button ga-trackable" data-category="Email Acquisition" data-label="Header" data-action="On-site Email Signup">Sign Up</button>
+                        <form class="main-nav-email-form" id="social-email" autocomplete="on">
+                            <header class="main-nav-email-dropdown-header">
+                                 <h3>Choose Your Editions</h3>
+
+                            </header>
+                            <section class="main-nav-email-dropdown-newsletter-options">
+                                <input type="hidden" name="interest_category" value="health">
+                                <input type="hidden" name="interest_subcategory" value="sex">
+                                <ul class="main-nav-email-dropdown-list col-left">
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[r29_reserve]" class="main-nav-email-dropdown-list-checkbox" id="email-r29_reserve">
+                                            <label for="email-reserve" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+Shopping</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_london]" class="main-nav-email-dropdown-list-checkbox" id="email-main_london">
+                                            <label for="email-london" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+London</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_new_york]" class="main-nav-email-dropdown-list-checkbox" id="email-main_new_york">
+                                            <label for="email-new-york" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+New York</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="main-nav-email-dropdown-list col-left">
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_everywhere]" class="main-nav-email-dropdown-list-checkbox" id="email-main_everywhere" checked="">
+                                            <label for="email-everywhere" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+Everywhere</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_chicago]" class="main-nav-email-dropdown-list-checkbox" id="email-main_chicago">
+                                            <label for="email-chicago" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+Chicago</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_los_angeles]" class="main-nav-email-dropdown-list-checkbox" id="email-main_los_angeles">
+                                            <label for="email-los-angeles" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+Los Angeles</label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="main-nav-email-dropdown-list-item">
+                                            <input type="checkbox" name="email_list[main_san_francisco]" class="main-nav-email-dropdown-list-checkbox" id="email-main_san_francisco">
+                                            <label for="email-san-francisco" class="main-nav-email-dropdown-list-label"> <span class="main-nav-email-dropdown-label-checkbox"></span>
+San Francisco</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                            <div class="main-nav-email-error" style="display: none;">
+                                <div class="icon-triangle-up"></div>
+                                <div class="main-nav-email-error-message">Oops! That's not a real email address.</div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="thanks main-nav-email-dropdown" id="social-email-thanks" hidden="">
+                        <header class="main-nav-email-dropdown-header"> <span class="icon-close"></span>
+
+                             <h3>Now we're email buddies!</h3>
+
+                        </header>
+                        <section class="main-nav-email-message">
+                            <p class="main-nav-email-message-text">You have chosen to receive our <strong>#NAMED_LISTS#</strong> newsletters at #EMAIL_ADDRESS#. You will receive an e-mail shortly confirming your subscription. So excited to have you!</p>
+                            <p class="main-nav-email-message-text">xoxo,
+                                <br>Refinery 29</p>
+                        </section>
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item facebook"> <span class="main-nav-social-menu-item-button icon-facebook ga-trackable" data-category="Facebook Acquisition" data-action="Main Facebook Page" data-label="Social Widget Button"></span>
+
+                    <div class="main-nav-social-share" id="social-facebook">
+                        <div class="fb-like fb_iframe_widget" data-href="http://facebook.com/refinery29" ref="social-widget-button" data-width="450" data-layout="button_count" data-show-faces="false" data-send="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=155023867867753&amp;container_width=0&amp;href=http%3A%2F%2Ffacebook.com%2Frefinery29&amp;layout=button_count&amp;locale=en_US&amp;ref=social-widget-button&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=450"><span style="vertical-align: bottom; width: 85px; height: 20px;"><iframe name="f3ece1eec4" width="450px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/v2.0/plugins/like.php?app_id=155023867867753&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FxRlIuTsSMoE.js%3Fversion%3D41%23cb%3Df1a97dd78%26domain%3Dwww.refinery29.com%26origin%3Dhttp%253A%252F%252Fwww.refinery29.com%252Ff39327f4e8%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Ffacebook.com%2Frefinery29&amp;layout=button_count&amp;locale=en_US&amp;ref=social-widget-button&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=450" style="border: none; visibility: visible; width: 85px; height: 20px;" class=""></iframe></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item pinterest"> <span class="main-nav-social-menu-item-button icon-pinterest"></span>
+
+                    <div class="main-nav-social-share ga-trackable" id="social-pinterest" data-category="Pinterest Acquisition" data-action="Main Pinterest Page" data-label="Social Widget Button"> <a href="http://pinterest.com/follow/refinery29/" class="PIN_1437009695889_follow_me_button" data-pin-href="http://pinterest.com/follow/refinery29/?guid=Uv6aW1fpbMwf-0" data-pin-log="button_follow_auto">Refinery29<b></b><i></i></a>
+
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item twitter"> <span class="main-nav-social-menu-item-button icon-twitter ga-trackable" data-category="Twitter Acquisition" data-action="Main Twitter Handle" data-label="Social Widget Button"></span>
+
+                    <div class="main-nav-social-share" id="social-twitter">
+                        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.36a0bf81ff285eb6cad31df608651a2f.en.html#_=1437009695648&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=refinery29&amp;show_count=false&amp;show_screen_name=false&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="position: static; visibility: visible; width: 60px; height: 20px;"></iframe>
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item instagram"> <span class="main-nav-social-menu-item-button icon-instagram"></span>
+
+                    <div class="main-nav-social-share ga-trackable" id="social-instagram" data-category="Instagram Acquisition" data-action="Main Instagram Page" data-label="Social Widget Button"> <a class=" instagram-link icons-instagram-follow" href="http://www.instagram.com/refinery29" target="_blank"></a>
+
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item tumblr"> <span class="main-nav-social-menu-item-button icon-tumblr ga-trackable" data-category="Tumblr Acquisition" data-action="Main Tumblr Page" data-label="Social Widget Button"></span>
+
+                    <div class="main-nav-social-share ga-trackable" id="social-tumblr">
+                        <iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="116" src="http://platform.tumblr.com/v1/follow_button.html?button_type=2&amp;tumblelog=refinery29&amp;color_scheme=dark"></iframe>
+                    </div>
+                </li>
+                <li class="main-nav-social-menu-item youtube"> <span class="main-nav-social-menu-item-button icon-youtube ga-trackable" data-category="Youtube Acquisition" data-action="Main Youtube Channel" data-label="Social Widget Button"></span>
+
+                    <div class="main-nav-social-share" id="social-youtube">
+                        <div id="___ytsubscribe_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 88px; height: 24px; background: transparent;">
+                            <iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 88px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" width="100%" id="I0_1437009695543" name="I0_1437009695543" src="https://www.youtube.com/subscribe_embed?usegapi=1&amp;channel=Refinery29TV&amp;count=hidden&amp;origin=http%3A%2F%2Fwww.refinery29.com&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.98E-i0XVtrs.O%2Fm%3D__features__%2Fam%3DQQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCOUAE_pBAIW2GwsYe4FnVrSDcvs8g#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1437009695543&amp;parent=http%3A%2F%2Fwww.refinery29.com&amp;pfname=&amp;rpctoken=11236180" data-gapiattached="true"></iframe>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- end of main-nav-top-->
+        <div class="main-nav-bottom"> <span class="main-nav-search-button icon-search active"></span>
+
+            <form class="main-nav-search-form " action="/search" method="get" role="search">
+                <label for="search" class="main-nav-search-label is-hidden">Search</label>
+                <input class="main-nav-search-input" id="main-nav-search-input" type="search" name="q" data-default="90" placeholder="SEARCH">
+                <button type="submit" class="main-nav-search-submit"> <span class="icon-search"></span><span class="is-hidden">search</span>
+                </button> <span class="main-nav-search-close">x</span>
+
+            </form>
+            <nav class="main-nav-menus">
+                <ul class="main-nav-categories">
+                    <li class="col-left" data-slug="Video"> <a href="//www.refinery29.com/video" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Video">Video</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Fashion"> <a href="//www.refinery29.com/fashion" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Fashion">Fashion</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Beauty"> <a href="//www.refinery29.com/beauty" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Beauty">Beauty</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Living"> <a href="//www.refinery29.com/living" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Living">Living</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Health"> <a href="//www.refinery29.com/health" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Health">Health</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Entertainment"> <a href="//www.refinery29.com/entertainment" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Entertainment">Entertainment</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Local">Local</li>
+                    <li class="col-left" data-slug="News"> <a href="//www.refinery29.com/politics" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="News">News</a>
+
+                    </li>
+                    <li class="col-left" data-slug="Shopping"> <a href="//www.refinery29.com/shops" class="ga-trackable" data-category="Navigation" data-action="Desktop" data-label="Shopping">Shopping</a>
+
+                    </li>
+                </ul>
+                <div class="main-nav-submenus">
+                    <aside class="main-nav-submenu main-nav-submenu-group-0" data-parent="Fashion" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/styling-tips" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Styling Tips">Styling Tips</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/designers" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Designers">Designers</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/street-style" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Street Style">Street Style</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/trends" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Trends">Trends</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/style-stars" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Celebs &amp; Influencers">Celebs &amp; Influencers</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/college" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - College">College</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/shopping" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Fashion - Shopping">Shopping</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="main-nav-submenu main-nav-submenu-group-1" data-parent="Beauty" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/hair" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Hair">Hair</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/nails" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Nails">Nails</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/makeup" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Makeup">Makeup</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/skin-care" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Skin Care">Skin Care</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/fragrance" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Fragrance">Fragrance</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/celeb-beauty" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Celebs &amp; Influencers">Celebs &amp; Influencers</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/beauty-prep-school" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Beauty - Beauty Prep School">Beauty Prep School</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="main-nav-submenu main-nav-submenu-group-2" data-parent="Living" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/travel" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Travel">Travel</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/home" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Home">Home</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/food-and-drink" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Food &amp; Drinks">Food &amp; Drinks</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/tech" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Tech">Tech</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/work-and-money" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Work &amp; Money">Work &amp; Money</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/weddings" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Living - Weddings">Weddings</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="main-nav-submenu main-nav-submenu-group-3" data-parent="Health" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/health-trends" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Health - Trends">Trends</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/diet-and-nutrition" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Health - Diet &amp; Nutrition">Diet &amp; Nutrition</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/fitness" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Health - Fitness">Fitness</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/sex" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Health - Sex">Sex</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/spirit" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Health - Spirit">Spirit</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="main-nav-submenu main-nav-submenu-group-4" data-parent="Entertainment" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/movies-and-tv-shows" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Movies &amp; Tv">Movies &amp; Tv</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/music" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Music">Music</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/art" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Art &amp; Books">Art &amp; Books</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/celebrities" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Celebrities">Celebrities</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/trends-in-entertainment" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Pop Culture">Pop Culture</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/red-carpet-looks" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Entertainment - Red Carpet">Red Carpet</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                    <aside class="main-nav-submenu main-nav-submenu-group-5" data-parent="Local" style="display: none;">
+                        <ul class="main-nav-submenu-list">
+                            <li> <a href="//www.refinery29.com/new-york" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Local - New York">New York</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/los-angeles" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Local - Los Angeles">Los Angeles</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/san-francisco" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Local - San Francisco">San Francisco</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/london" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Local - London">London</a>
+
+                            </li>
+                            <li> <a href="//www.refinery29.com/chicago" class="main-nav-submenu-item ga-trackable" data-category="Subnavigation" data-action="Desktop" data-label="Local - Chicago">Chicago</a>
+
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

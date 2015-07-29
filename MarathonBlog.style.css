@@ -1,0 +1,56 @@
+
+body {
+    color: #333;
+    font-family: "Titillium Web", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+h1 {
+    font-family: "Poiret One", cursive;
+    color: rgb(230, 131, 126);
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    color: rgb(41, 194, 56);
+}
+h3 {
+    text-decoration: underline 
+}
+h6 {
+    color: rgb(249, 249, 252);
+    background-color :rgb(91, 91, 102);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a.socialmedia {
+    float: right;
+    padding: 0.25em;
+}
+
+.nav-button {
+
+    text-decoration: none;
+    text-align: center;
+    color: rgb(41, 194, 56);
+    background-color: white;
+    margin: 1.5em;
+}
+
+.nav-button:hover {
+    background-color: grey;
+}
+
+#cranebeach {
+    width: 100%;
+    max-width: 100%;
+}
+
+#jumpto {
+    list-style-type: upper-roman;
+    width: 100%;
+}
